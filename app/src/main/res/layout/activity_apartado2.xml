@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_titulo_mensaje"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="@string/hint_et_titulo_mensaje"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_texto_mensaje"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_segundos_mensaje"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:hint="@string/hint_et_texto_mensaje"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_segundos_mensaje"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="315dp"
+        android:ems="10"
+        android:hint="@string/hint_et_segundos_mensaje"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/btn_enviar" />
+
+    <TextView
+        android:id="@+id/tv_titulo_notificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/tv_titulo_mensaje" />
+
+    <TextView
+        android:id="@+id/tv_texto_notificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="141dp"
+        android:text="@string/tv_texto_mensaje" />
+
+    <TextView
+        android:id="@+id/tv_segundos_espera"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_texto_notificacion"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-59dp"
+        android:layout_marginTop="245dp"
+        android:text="@string/tv_segundos_espera" />
+</RelativeLayout>

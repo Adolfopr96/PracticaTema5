@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Toast y notificaciones</string>
+    <string name="titulo_apartado1">Configurar toast</string>
+    <string name="titulo_apartado2">Configurar notificación</string>
+    <string name="btn_princiapl1">Apartado 1</string>
+    <string name="btn_principal2">Apartado 2</string>
+    <string name="tv_horizontal">Elija la orientación horizontal</string>
+    <string name="rb_horizontal1">Izquierda</string>
+    <string name="rb_horizontal2">Derecha</string>
+    <string name="rb_horizontal3">Centro</string>
+    <string name="btn_generar_apartado1">Generar Toast</string>
+    <string name="tv_vertical">Elija la orientación vertical</string>
+    <string name="rb_vertical1">Arriba</string>
+    <string name="rb_vertical2">Centro</string>
+    <string name="rb_vertical3">Abajo</string>
+    <string name="tv_texto_apartado1">Escriba el texto que aparecerá en el Toast</string>
+    <string name="hint_et_texto_apartado1">Escriba aquí el texto que desee</string>
+    <string name="hint_et_orientaciónY">Introduzca la posición en el eje de la Y.</string>
+    <string name="hint_et_orientaciónX">Introduzca la posición en el eje de la X</string>
+    <string name="hint_et_titulo_mensaje">Introduzca el título del mensaje</string>
+    <string name="hint_et_texto_mensaje">Introduzca el texto del mensaje</string>
+    <string name="hint_et_segundos_mensaje">Introduce el tiempo que debe pasar</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="error_campos_vacios">Error, complete todos los campos</string>
+    <string name="tv_titulo_mensaje">Título de la notificación</string>
+    <string name="tv_texto_mensaje">Texto de la notificación</string>
+    <string name="tv_segundos_espera">Tiempo de espera hasta que se muestre la notificación (Milisegundos)</string>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RadioGroup
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_horizontal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_horizontal1" />
+
+        <RadioButton
+            android:id="@+id/rb_horizontal2"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/rb_horizontal3" />
+
+        <RadioButton
+            android:id="@+id/rb_horizontal3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_horizontal2" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_horizontal"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="174dp"
+        android:text="@string/tv_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_vertical"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="273dp"
+        android:text="@string/tv_vertical" />
+
+    <RadioGroup
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_vertical1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_vertical1" />
+
+        <RadioButton
+            android:id="@+id/rb_vertical2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_vertical2" />
+
+        <RadioButton
+            android:id="@+id/rb_vertical3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_vertical3" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_texto_apartado1"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="131dp"
+        android:text="@string/tv_texto_apartado1" />
+
+    <EditText
+        android:id="@+id/et_texto_apartado1"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="71dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hint_et_texto_apartado1"
+        android:inputType="textPersonName"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/btn_generar_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/btn_generar_apartado1" />
+
+    <EditText
+        android:id="@+id/et_ejeX"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/hint_et_orientaciónX"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_ejeY"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="95dp"
+        android:ems="10"
+        android:hint="@string/hint_et_orientaciónY"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+</RelativeLayout>
